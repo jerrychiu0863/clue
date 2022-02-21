@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn3.iconfinder.com/data/icons/32-fufficon/32/32x32_fluffy-01-512.png"
+    />
+    <title>Kuan-Jen Chiu Portfolio</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      h1 {
+        margin-top: 48px;
+        font-size: 40px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+      }
+
+      h1::before,
+      h1::after {
+        content: '';
+        width: 40px;
+        height: 5px;
+        position: absolute;
+        top: 50%;
+        background: #ffb700;
+        transform: translateY(-50%);
+        z-index: -1;
+      }
+
+      h1::before {
+        left: -12%;
+      }
+
+      h1::after {
+        right: -12%;
+      }
+
+      h2 {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 8px;
+        margin: 48px 0;
+      }
+
+      section {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      .slide {
+        background: #eee;
+        margin: 0px 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      .slick-next:before,
+      .slick-prev:before {
+        color: #333;
+      }
+
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 24px;
+          margin-bottom: 0;
+        }
+
+        h1::before,
+        h1::after {
+          width: 20px;
+        }
+
+        h2 {
+          margin: 24px 0;
+          font-size: 20px;
+        }
+
+        section {
+          margin: 48px auto;
+          margin-bottom: 96px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #fcfcfc">
+    <section style="max-width: 80%; margin: 0 auto; text-align: center">
+      <h1>Kuan-Jen Chiu Portfolio</h1>
+    </section>
+    <!--Ad-->
+    <section>
+      <h2>One-Page Advertisements</h2>
+      <div class="your-class">
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/LandingPage/Get/EnXkB"
+            target="_blank"
+          >
+            <img src="./two_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/LandingPage/Get/v1sF6"
+            target="_blank"
+            ><img src="./res_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="http://www.clue.com.tw/webinars/LandingPage/Get/Hdvyk"
+            target="_blank"
+            ><img src="./jr_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/LandingPage/Get/lE4f9"
+            target="_blank"
+            ><img src="./21_600x299.jpg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Website-->
+    <section style="margin-bottom: 96px; margin-top: 96px">
+      <h2>Columbia English Website</h2>
+      <div class="your-class">
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/Content/eDM/clue_event.html"
+            target="_blank"
+          >
+            <img src="./event_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/Content/eDM/clue_article.html"
+            target="_blank"
+            ><img src="./article_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/Content/eDM/clue-lobby.html"
+            target="_blank"
+            ><img src="./lobby_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/Content/eDM/clue_movie.html"
+            target="_blank"
+            ><img src="./movie_600x299.jpg" />
+          </a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://www.clue.com.tw/webinars/Content/eDM/columbia_online_des.html"
+            target="_blank"
+            ><img src="./online_600x299.jpg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.your-class').slick({
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+          dots: true,
+          arrows: true,
+          responsive: [
+            // {
+            //   breakpoint: 768,
+            //   settings: {
+            //     arrows: false,
+            //     centerMode: true,
+            //     centerPadding: '40px',
+            //     slidesToShow: 2,
+            //   },
+            // },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
